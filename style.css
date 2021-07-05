@@ -11,7 +11,7 @@ color:rgb(56, 56, 240);}
 .color-h1{
     color:rgb(250, 24, 250);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 
@@ -22,7 +22,7 @@ section{
 }
 .half-width img{
     width: 70%;
-    color:
+    
 }
 .link-button{
 text-decoration: none;
@@ -30,4 +30,9 @@ background-image: linear-gradient(Purple,rgb(84, 84, 247));
 color:white;
 padding: 10px 40px;
 border-radius: 5px;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
