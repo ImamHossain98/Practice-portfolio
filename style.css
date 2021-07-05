@@ -5,8 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
-h3{font-size: 20px;
+h3{font-size: 30px;
 color:rgb(56, 56, 240);}
+p{
+    font-size: 20px;
+}
 
 .color-h1{
     color:rgb(250, 24, 250);
@@ -14,6 +17,7 @@ color:rgb(56, 56, 240);}
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
+   
 
 }
 .half-width{
@@ -30,9 +34,15 @@ background-image: linear-gradient(Purple,rgb(84, 84, 247));
 color:white;
 padding: 10px 40px;
 border-radius: 5px;
+text-
 }
 
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
